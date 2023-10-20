@@ -6,11 +6,14 @@
  */
 int _printf(const char  *format, ...)
 {
-    int counter =0;
+    int counter = 0;
     va_list arguments;
-    
+
     if (format == NULL)
+    {
         return (-1);
+    }
+
     va_start(arguments, format);
 
     while (*format != '\0')
@@ -45,6 +48,7 @@ int _printf(const char  *format, ...)
                     if (string != NULL)
                     {
                         write(1, string, strlen(string));
+                        counter += strlen(string);
                     }
                     else
                     {
@@ -52,6 +56,9 @@ int _printf(const char  *format, ...)
                         counter += 6;
                         break;
                     }   
+
+
+                    break;
                 }
                 case '%':
                 {

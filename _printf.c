@@ -2,7 +2,7 @@
 /**
  * _printf - To replicate printf
  *
- * Return: always return success (0)
+ * Return: always retur 0 (success) 
  */
 int _printf(const char  *format, ...)
 {

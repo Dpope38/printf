@@ -1,5 +1,7 @@
 This is a collaborative project by Michael Affum and Daniel Nelson
 This is custom made printf function and been programmed to take a multiple argument using variadic functions and the like. It is simply a replica of the printf function in the stdio library. And yes it was a team project work to test our understanding of the various concepts which we have been taught so far. Open for any collaborations and corrections. Cheers! 
+
+
 SUMMARY
 
 
